@@ -1,0 +1,40 @@
+{
+  "name": "AllGo Apps - アプリプラットフォーム",
+  "short_name": "AllGo Apps",
+  "description": "アプリをアップロードして即公開できるプラットフォーム",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "developer"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "アプリをアップロード",
+      "short_name": "アップロード",
+      "description": "新しいアプリをアップロード",
+      "url": "/creators/upload",
+      "icons": [
+        {
+          "src": "/icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
